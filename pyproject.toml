@@ -1,0 +1,16 @@
+[project]
+name = "health-corr"
+version = "0.1.0"
+description = "Interactive explorer for correlations among NHANES health measures."
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "pandas",
+    "plotly",
+    "scipy",
+    "seaborn",
+    "streamlit",
+]
+
+[tool.uv]
+package = false
